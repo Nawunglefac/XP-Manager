@@ -20,3 +20,7 @@ The microservice responds to the client with a JSON object containing the status
 
 4. **Client Receives Response:
 The client receives the JSON response and processes the data as needed.
+
+5. ** Example of HTTP POST request for the test program: curl -X POST http://localhost:3000/accumulate-xp -H "Content-Type: application/json" -d '{"xp": 150}'
+
+6. **Example of HTTP GET request for test program: curl http://localhost:3000/current-level
